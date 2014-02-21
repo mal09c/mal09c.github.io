@@ -1,19 +1,17 @@
 *{
     box-sizing: border-box;
-}
-h1 {
-    color: #900000; 
-    font-family:sans-serif; 
-    font-size:30px;
+    margin: 0;
+    padding: 0
 }
 
-h2 {
-    color: #404040; 
-    font-family:serif; 
-    font-size:20px; 
+body {
+    font-size: 16px;
+    line-height: 24px;
+    
 }
 
 p {
+    margin-bottom: 16px;
     font-size: 16px; 
     font-family:sans-serif; 
     line-height: 20px;
@@ -24,6 +22,72 @@ img {border: 5px solid #CCCCCC;
     padding: 10px;
     margin: 0% 5% 0% 5%
 }
+
 header {
-    background-color: #000000; color: #aaaaaa;
+    background-color: #000000; 
+    color: #aaaaaa;
+    height: 60px;
+}
+
+h1 {
+    float: left;
+    color: #900000; 
+    font-family: arial, sans-serif; 
+    font-size: 22px;
+    font-weight: 500;
+    border: 3px #aaaaaa;
+    padding: 15px; /* TRouBLe */
+}
+
+header nav {
+    float: left;
+    margin-top: 15px;
+    text-decoration: none
+}
+
+h2 {
+    color: #404040; 
+    font-family: sans-serif; 
+    font-size: 20px; 
+}
+
+header a {
+    color: #aaaaaa;
+    margin-right: 20px
+    
+}
+
+header a:link {}
+header a:visited {
+    text-decoration: none
+    
+}
+
+header a:active {
+    text-decoration: none
+}
+header a:hover {
+    color: red;   
+}
+
+
+article {
+    clear: both;
+    padding: 0 30px 0 30px
+}
+
+article h1 {
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 20px;
+}
+
+article h2 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 0 10px 0 10px
 }
