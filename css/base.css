@@ -21,6 +21,16 @@ img {border: 5px solid #CCCCCC;
     width: 40%; 
     padding: 10px;
     margin: 0% 5% 0% 5%
+        
+}
+
+aside {
+    width: 45%;
+    background-color: black;
+    float: left;
+    margin: 0 0 10px 5%;
+    
+    
 }
 
 header {
@@ -73,7 +83,9 @@ header a:hover {
 
 article {
     clear: both;
-    padding: 0 30px 0 30px
+    padding: 0 30px 0 30px;
+    margin-left: 10px;
+
 }
 
 article h1 {
@@ -88,6 +100,18 @@ article h2 {
     margin-bottom: 10px;
 }
 
+article p {
+    margin-bottom: 16px;
+    font-size: 16px; 
+    font-family:sans-serif; 
+    line-height: 20px;
+    margin-right: 50%
+}
+
 footer {
-    padding: 0 10px 0 10px
+    padding: 0 10px 0 10px;
+    clear: both;
+    font-size: 11px;
+    font-family: sans-serif;
+    
 }
