@@ -46,7 +46,7 @@ h1 {
     font-size: 22px;
     font-weight: 500;
     border: 3px #aaaaaa;
-    padding: 15px; /* TRouBLe */
+    padding: 15px
 }
 
 header nav {
@@ -89,9 +89,12 @@ article {
 }
 
 article h1 {
-    font-size: 36px;
-    line-height: 44px;
-    margin-bottom: 20px;
+    color: #900000; 
+    font-family: arial, sans-serif; 
+    font-size: 22px;
+    font-weight: 500;
+    border: 3px #aaaaaa;
+    padding: 15px
 }
 
 article h2 {
