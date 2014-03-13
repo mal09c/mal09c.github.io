@@ -127,11 +127,12 @@ footer {
     nav {
         90%;
         clear: left;
-        margin-left: 5px;  
+        margin-left: 5px;
+        width: 100%
     }
     
     #content {
-        width: 90%;
+        width: 100%;
         
     }
     
