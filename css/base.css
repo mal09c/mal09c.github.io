@@ -16,6 +16,9 @@ p {
     font-family:sans-serif; 
     line-height: 20px;
 }
+nav {
+    
+}
 
 img {border: 5px solid #CCCCCC; 
     width: 40%; 
@@ -118,3 +121,21 @@ footer {
     font-family: sans-serif;
     
 }
+
+@media screen (max-width: 600px) {
+  
+    nav {
+        border: 10px solid red;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
