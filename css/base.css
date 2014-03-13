@@ -126,11 +126,17 @@ footer {
   
     nav {
         90%;
-        
+        clear: left;
+        margin-left: 5px;  
     }
+    
     #content {
         width: 90%;
         
+    }
+    
+    body{
+        padding: 5%;
     }
 }
 
