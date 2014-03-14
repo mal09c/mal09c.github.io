@@ -12,17 +12,14 @@ body {
 
 p {
     margin-bottom: 16px;
+    margin-left: 20px;
     font-size: 16px; 
     font-family:sans-serif; 
-    line-height: 20px;
-}
-nav {
-    
+    line-height: 0px;
 }
 
-img {border: 5px solid #CCCCCC; 
-    width: 40%; 
-    padding: 10px;
+img {
+    padding: 3px;
     margin: 0% 5% 0% 5%
         
 }
@@ -43,13 +40,33 @@ header {
 }
 
 h1 {
-    float: left;
     color: #900000; 
     font-family: arial, sans-serif; 
     font-size: 22px;
     font-weight: 500;
     border: 3px #aaaaaa;
-    padding: 15px
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    color: #404040; 
+    font-family: sans-serif; 
+    font-size: 18px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    line-height: 20px;
+}
+
+ul, li {
+    padding: 15px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    line-height: 20px;
+    font-family: Georgia, serif;
+    font-size: 13px;
 }
 
 header nav {
@@ -58,10 +75,14 @@ header nav {
     text-decoration: none
 }
 
-h2 {
-    color: #404040; 
-    font-family: sans-serif; 
-    font-size: 20px; 
+header h1 {
+    float: left;
+    color: #900000; 
+    font-family: arial, sans-serif; 
+    font-size: 22px;
+    font-weight: 500;
+    border: 3px #aaaaaa;
+    padding: 15px
 }
 
 header a {
@@ -94,23 +115,23 @@ article {
 article h1 {
     color: #900000; 
     font-family: arial, sans-serif; 
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 500;
-    border: 3px #aaaaaa;
-    padding: 15px
+    padding: 3px
 }
 
 article h2 {
-    font-size: 24px;
+    font-size: 19px;
     line-height: 30px;
     margin-bottom: 10px;
+    padding: 10px;
 }
 
 article p {
-    margin-bottom: 16px;
-    font-size: 16px; 
+    margin-bottom: 0px;
+    font-size: 15px; 
     font-family:sans-serif; 
-    line-height: 20px;
+    line-height: 3px;
     margin-right: 50%
 }
 
