@@ -23,7 +23,17 @@ p {
 img {
     padding: 3px;
     margin: 0% 5% 0% 5%;
+
     
+}
+.half {
+    width: 50%;
+    float: left;
+}
+
+.third {
+    float: left;
+    width: 33%;
 }
 
 figcaption {
@@ -178,12 +188,10 @@ footer {
     
     nav li{
         display: inline;
-        margin-right: 10px;
-        text-align:    
+        margin-right: 10px;    
     }
     
     #content {
-        clear: center;
         width: 100%;
         margin-left: 1px;
         
@@ -211,10 +219,6 @@ footer {
         line-height: 26px;
     }
     
-aside {
-        width: ;
-    
-        }
 figcaption{
         text-align: center;
             }
