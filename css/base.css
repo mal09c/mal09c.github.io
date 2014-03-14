@@ -23,7 +23,6 @@ p {
 img {
     padding: 3px;
     margin: 0% 5% 0% 5%;
-
     
 }
 .half {
@@ -198,7 +197,7 @@ footer {
     }
     
    img {
-        padding: 0px;
+        padding: 5px;
         margin-left: 1px;
         margin-right: 1px;
         width: 30%;
