@@ -46,7 +46,7 @@ figcaption {
 }
 
 aside {
-    width: 45%;
+    width: 520px;
     background-color: black;
     float: none;
     margin: 0 0 5px 3%;
@@ -197,10 +197,11 @@ footer {
         
     }
     
-    img {
+   img {
         padding: 0px;
         margin-left: 1px;
         margin-right: 1px;
+        width: 30%;
         
     }
     
