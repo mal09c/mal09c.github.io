@@ -6,7 +6,7 @@
 
 body {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.375em;
     
 }
 
@@ -16,7 +16,7 @@ p {
     margin-right: 40%;
     font-size: 16px; 
     font-family:sans-serif; 
-    line-height: 26px;
+    line-height: 1.375em;
 }
 
 
@@ -41,7 +41,7 @@ figcaption {
     margin-right: 40%;
     font-size: 16px; 
     font-family:sans-serif; 
-    line-height: 26px;   
+    line-height: 1.375em;   
 }
 
 aside {
@@ -77,16 +77,16 @@ h2 {
     padding-top: 25px;
     padding-left: 25px;
     padding-bottom: 5px;
-    line-height: 20px;
+    line-height: 1.375em;
 }
 
 ul, li {
     padding: 15px;
     margin-left: 20px;
     margin-bottom: 0px;
-    line-height: 20px;
+    line-height: 1.375em;
     font-family: Georgia, serif;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 header nav {
@@ -142,7 +142,7 @@ article h1 {
 
 article h2 {
     font-size: 19px;
-    line-height: 30px;
+    line-height: 1.375em;
     margin-bottom: 10px;
     padding: 10px;
 }
@@ -151,7 +151,7 @@ article p {
     margin-bottom: 0px;
     font-size: 15px; 
     font-family:sans-serif; 
-    line-height: 3px;
+    line-height: 1.375em;
     margin-right: 50%
 }
 
@@ -171,7 +171,7 @@ footer {
     
     h1, h2 {
         text-align: center;
-        line-height: 26px;
+        line-height: 1.25em;
     }
     
     nav {
@@ -206,17 +206,17 @@ footer {
     
     article p{
         text-align: center;
-        line-height: 26px;
+        line-height: 1.25em;
         
     }
     
     p{
         text-align:center;
-        line-height: 26px;
+        line-height: 1.25em;
         
     }
     a{
-        line-height: 26px;
+        line-height: 1.25em;
     }
     
 figcaption{
