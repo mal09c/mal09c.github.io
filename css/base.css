@@ -5,8 +5,11 @@
 }
 
 body {
-    font-size: 16px;
+    font-size: 14px; 
+    font-family:sans-serif; 
     line-height: 1.375em;
+    text-decoration: none;
+    
     
 }
 
@@ -50,12 +53,14 @@ img {
 }
 
 figcaption {
+    margin-top: 10px;
     margin-bottom: 16px;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-right: 40%;
-    font-size: 16px; 
+    font-size: 14px; 
     font-family:sans-serif; 
-    line-height: 1.375em;   
+    line-height: 1.375em;
+    text-decoration: none; 
 }
 
 aside {
@@ -89,9 +94,9 @@ h2 {
     color: #404040; 
     font-family: 'Verdana'; 
     font-size: 18px;
-    padding-top: 9px;
+    padding-top: 18px;
     padding-left: 25px;
-    padding-bottom: 18px;
+    padding-bottom: 10px;
     line-height: 1.375em;
     text-shadow: 1px 0px 0px #777E7E;
     letter-spacing: .5px;
@@ -100,12 +105,16 @@ h2 {
 }
 
 ul, li {
-    padding: 15px;
-    margin-left: 20px;
-    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    margin-left: 30px;
+    margin-right: 40%;
+    font-size: 14px; 
+    font-family:sans-serif; 
     line-height: 1.375em;
-    font-family: Georgia, serif;
-    font-size: 16px;
+    text-decoration: none;
+    list-style-type: disc;
+  
 }
 
 header nav {
@@ -119,7 +128,7 @@ header h1 {
     float: left;
     color: #900000; 
     font-family: 'Verdana'; 
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 500;
     border: 3px #aaaaaa;
     padding: 15px;
@@ -159,13 +168,13 @@ article {
 article h1 {
     color: #900000; 
     font-family: arial, sans-serif; 
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 500;
     padding: 3px
 }
 
 article h2 {
-    font-size: 19px;
+    font-size: 18px;
     line-height: 1.375em;
     margin-bottom: 10px;
     padding: 10px;
@@ -175,9 +184,9 @@ article h2 {
 }
 
 footer {
-    padding: 60px 10px 0 10px;
+    padding: 60px 10px 10px 10px;
     clear: both;
-    font-size: 11px;
+    font-size: 1px;
     font-family: sans-serif;
     
 }
@@ -226,22 +235,25 @@ footer {
     article p{
         text-align: center;
         line-height: 1.25em;
-        
+        font-size: 14px
     }
     
     p{
         text-align:center;
         line-height: 1.25em;
+        font-size: 14px
         
     }
     a{
         line-height: 1.25em;
+        font-size: 14px
     }
     
 figcaption{
         text-align: center;
+        font-size: 14px;
+        line-height: 1.25em;
             }
-}
 
 
 
