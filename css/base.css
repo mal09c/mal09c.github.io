@@ -38,7 +38,7 @@ a {
 
 
 img {
-    padding: 3px;
+    padding: 5px;
     margin: 0% 5% 0% 5%;
     
 }
@@ -121,6 +121,7 @@ header nav {
     float: left;
     margin-top: 15px;
     text-decoration: none;
+    line-height: 1.375em;
     
 }
 
@@ -141,6 +142,7 @@ header a {
     margin-right: 20px;
     font-family: 'Georgia';
     text-decoration: none;
+    line-height: 1.375em;
     
 }
 
@@ -152,35 +154,10 @@ header a:visited {
 
 header a:active {
     text-decoration: none
+    
 }
 header a:hover {
     color: red;   
-}
-
-
-article {
-    clear: both;
-    padding: 0 30px 0 30px;
-    margin-left: 10px;
-
-}
-
-article h1 {
-    color: #900000; 
-    font-family: arial, sans-serif; 
-    font-size: 28px;
-    font-weight: 500;
-    padding: 3px
-}
-
-article h2 {
-    font-size: 18px;
-    line-height: 1.375em;
-    margin-bottom: 10px;
-    padding: 10px;
-}
-
-
 }
 
 footer {
